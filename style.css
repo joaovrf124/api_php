@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(110, 175, 210);
+}
+
+.conteinar {
+    width: 375px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 27px;
+}
+
+button {
+    align-self: center;
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
